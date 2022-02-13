@@ -8,7 +8,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class WuxiaTaskTypes {
 
-	public static final TaskType STAGE_TASK_TYPE = TaskTypes.register(new ResourceLocation(WuxiaCraftQuests.MOD_ID, "wuxia_task_type"), WuxiaStageTask::new, () -> Icon.EMPTY );
+	public static final TaskType CULTIVATION_STAGE_TASK_TYPE = TaskTypes.register(new ResourceLocation(WuxiaCraftQuests.MOD_ID, "cultivation_stage_task_type"), WuxiaStageTask::new, () -> Icon.EMPTY );
 
 	public static void init() {
 
